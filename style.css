@@ -10,7 +10,15 @@
     border: none;
     padding: 5px;
     font-size: 17px;
+    cursor: pointer;
 }
+.button:hover {
+  background-color: #59fb2c;
+  border: 1px solid black;
+  box-shadow: 0 0 16px rgba(209, 41, 41, 0.9);
+  color: rgb(0, 0, 0);
+}
+
 .poppins{
     font-family: "Poppins", sans-serif;
 }
@@ -166,6 +174,9 @@ main .description button{
 }
 .users-review-container{
     text-align: left;
+    padding: 15px 0 10px 15px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 .users-details{
     display: flex;
@@ -200,6 +211,8 @@ form input {
     padding: 15px;
     border: 1px solid#D6DDED;
     border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    color: #d7d7ff;
 }
 form textarea{
     width: 100%;
@@ -210,6 +223,17 @@ form textarea{
 form input[type="submit"]{
     height: 50px;
     width: 107%;
+}
+form label{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+textarea:hover{
+    border: 1px solid #4C4C4C;
+}
+input:hover{
+    border: 1px solid #4C4C4C;
 }
 /* footer section */
 footer{
