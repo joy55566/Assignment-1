@@ -87,7 +87,7 @@ header .view-button{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 15vh 110px 141px;
+    margin: 15vh 10% 141px;
 }
 .g-img{
     width: 30vw;
@@ -118,14 +118,15 @@ header .view-button{
     font-weight: bold;
     padding: 50px 76px;
     background-color: #d7d7ff;
-    margin: 0 110px 137px;
+    margin: 0 10% 137px;
     border-radius: 24px;
     
 }
 .users-count-container{
     display: flex;
     justify-content: space-around;
-    gap: 167px;
+    flex-wrap: wrap;
+    gap: 15%;
     margin-top: 40px;
 }
 .users-count h1{
@@ -143,7 +144,7 @@ header .view-button{
 /* users review */
 .Review{
     text-align: center;
-    padding: 110px 100px;
+    margin: 0 10% 137px;
     margin-bottom: 137px;
     font-family: "Inter", sans-serif;
 }
@@ -191,8 +192,8 @@ header .view-button{
 .explore-gallery{
     text-align: center;
     padding: 20px 0 100px;
-    margin: 0px 110px 150px;
-    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.185);
+    margin: 0px 10% 150px;
+    background-color: rgb(254, 242, 242);
 }
 .explore-gallery h2{
     font-size: 50px;
@@ -223,7 +224,8 @@ header .view-button{
 .contact{
     display: flex;
     justify-content: space-between;
-    margin: 30px 110px 50px;
+    flex-wrap: wrap;
+    margin: 30px 10% 50px;
 }
 form{
     display: flex;
@@ -237,7 +239,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 97px;
+    font-size: 5rem;
     font-weight: bold;
 }
 form input {
